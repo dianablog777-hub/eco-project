@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
-    font-family: 'Segoe UI', sans-serif;
+    font-family: "Times New Roman";
     color: #2e7d32;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
 
@@ -30,7 +30,6 @@ nav ul li a:hover {
     background-color: #4caf50;
 }
 
-
 .eco-card {
     background: white;
     max-width: 900px;
@@ -41,53 +40,119 @@ nav ul li a:hover {
     border-left: 5px solid #4caf50;
 }
 
-h1, h2 { color: #1b5e20; text-align: center; }
+    h1, h2 { color: #1b5e20; text-align: center; }
 
-table { width: 100%; border-collapse: collapse; margin-top: 15px; }
-th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-th { background-color: #e8f5e9; }
+    table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+    th, td { border: 1px solid #000; padding: 12px; text-align: left; }
+    th { background-color: #e8f5e9; }
 
-.main-button {
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    .main-button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .main-banner {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        margin-top: 20px;
+        filter: brightness(90%);
+    }
+
+    .hero-section {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .main-button:hover {
+        background-color: #2e7d32;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+
+
+
+
+    /*таблиці
+td {
+    color: #d32f2f;
+    font-size: 14px;
+    font-style: italic;
 }
 
-.main-banner {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    margin-top: 20px;
-    filter: brightness(90%);
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-.hero-section {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
+tr:nth-child(even) { background-color: #f2f2f2; }
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
+.eco-data td {
+    font-weight: bold;
 }
+<table class="eco-data">
 
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-}
+різні налаштування
+font-weight: bold;
+border: 2px solid green;
+font-weight: bold;
+body { background-color: yellow; }
 
-.main-button:hover {
-    background-color: #2e7d32;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+приближення при наведені
+nav ul li a:hover { text-decoration: underline; font-weight: bold; }
+
+текст
+#special-title {
+    color: orange;
+    font-size: 30px;
 }
+кнопка головна
+<a href="index.html" class="main-button" style="text-decoration: none; display: inline-block;">На головну</a>
+
+збільшення при наведені
+
+#special-card:hover {
+    transform: scale(1.15);
+}
+картинка
+.new-line-img {
+    display: block;
+    margin-bottom:
+}
+рамка при наведені
+.eco-card:hover { border: 2px solid #4caf50; }
+
+6 фото в 2 ряди
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallery img {
+    width: 30%;
+    margin: 5px;
+}
+*/
